@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite Games</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Favorite Games</h1>
+      <p>Here are some games I like</p>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Games</a>
+        <a href="#">About</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <ul>
+          <li>
+            <article>
+              <img src="/static/images/minecraft.png" alt="Minecraft poster" />
+              <div>
+                <h2>Name game: Minecraft</h2>
+                <p>
+                  Is a popular computer game in the sandbox genre, where the
+                  entire world consists of cubic blocks.
+                </p>
+                <a
+                  href="https://apps.microsoft.com/detail/9pj8266bhfwn?hl=uk-UA&gl=KR"
+                  >Read more</a
+                >
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <img src="/static/images/witcher-3.png" alt="Witcher-3 poster" />
+              <div>
+                <h2>Name game: The Witcher 3</h2>
+                <p>
+                  It's about a man, Geralt of Rivia. An exciting game in a
+                  beautiful world as a witcher.
+                </p>
+                <a
+                  href="https://www.ign.com/articles/2015/05/12/the-witcher-3-the-wild-hunt-review"
+                  >Read more</a
+                >
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <img src="/static/images/gta-v.png" alt="GTA V poster" />
+              <div>
+                <h2>Name game: GTA V</h2>
+                <p>
+                  An open world where you can complete many missions and live a
+                  full life.
+                </p>
+                <a href="https://www.rockstargames.com/ru/gta-v">Read more</a>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <p>Which game is your favorite?</p>
+
+      <h2>Game genres</h2>
+      <ul>
+        <li>
+          RPG
+          <ul>
+            <li>The Witcher 3</li>
+            <li>Cyberpunk 2077</li>
+          </ul>
+        </li>
+
+        <li>
+          Sandbox
+          <ul>
+            <li>Minecraft</li>
+            <li>Terraria</li>
+          </ul>
+        </li>
+
+        <li>
+          Action
+          <ul>
+            <li>GTA V</li>
+            <li>Red Dead Redemption 2</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h2>My top 3 games</h2>
+      <ol>
+        <li>World of Tanks</li>
+        <li>Peak</li>
+        <li>Hearthstone</li>
+      </ol>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Game</th>
+            <th>Year</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Minecraft</td>
+            <td>2011</td>
+            <td>9/10</td>
+          </tr>
+          <tr>
+            <td>The Witcher 3</td>
+            <td>2015</td>
+            <td>10/10</td>
+          </tr>
+          <tr>
+            <td>GTA V</td>
+            <td>2013</td>
+            <td>9/10</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Leave your review</h2>
+      <form>
+        <div>
+          <label for="favorite-game">Game name :</label>
+          <input
+            type="text"
+            id="favorite-game"
+            name="favorite_game"
+            placeholder="Enter game name"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="email">Email :</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="game-review">Your review :</label>
+          <textarea
+            type="text"
+            id="game-review"
+            name="game_review"
+            placeholder="Write your review"
+            required
+            rows="5"
+          >
+          </textarea>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
